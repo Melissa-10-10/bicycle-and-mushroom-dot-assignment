@@ -1,0 +1,13 @@
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.BicycleRental.resources
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.DashboaedFoam.resources
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.LoginFoam.resources
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.Mushroom.resources
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.Properties.Resources.resources
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\FOAM1\bin\Debug\FOAM1.exe.config
+C:\Users\PC\source\repos\FOAM1\bin\Debug\FOAM1.exe
+C:\Users\PC\source\repos\FOAM1\bin\Debug\FOAM1.pdb
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.exe
+C:\Users\PC\source\repos\FOAM1\obj\Debug\FOAM1.pdb

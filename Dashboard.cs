@@ -38,55 +38,58 @@ namespace FOAM1
 
         private void InitializeComponent()
         {
-            this.BicycleRental = new System.Windows.Forms.Button();
-            this.Mushroom1 = new System.Windows.Forms.Button();
-            this.Logout = new System.Windows.Forms.Button();
-            this.Dashboard = new System.Windows.Forms.Label();
+            this.BicycleRental1 = new System.Windows.Forms.Button();
+            this.Mushroom = new System.Windows.Forms.Button();
+            this.Logout1 = new System.Windows.Forms.Button();
+            this.Dashboard1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // BicycleRental
+            // BicycleRental1
             // 
-            this.BicycleRental.Location = new System.Drawing.Point(259, 92);
-            this.BicycleRental.Name = "BicycleRental";
-            this.BicycleRental.Size = new System.Drawing.Size(75, 23);
-            this.BicycleRental.TabIndex = 0;
-            this.BicycleRental.Text = "BiycleRental";
-            this.BicycleRental.UseVisualStyleBackColor = true;
+            this.BicycleRental1.Location = new System.Drawing.Point(202, 94);
+            this.BicycleRental1.Name = "BicycleRental1";
+            this.BicycleRental1.Size = new System.Drawing.Size(90, 23);
+            this.BicycleRental1.TabIndex = 0;
+            this.BicycleRental1.Text = "BicycleRental";
+            this.BicycleRental1.UseVisualStyleBackColor = true;
+            this.BicycleRental1.Click += new System.EventHandler(this.BicycleRental_Click);
             // 
-            // Mushroom1
+            // Mushroom
             // 
-            this.Mushroom1.Location = new System.Drawing.Point(502, 92);
-            this.Mushroom1.Name = "Mushroom1";
-            this.Mushroom1.Size = new System.Drawing.Size(75, 23);
-            this.Mushroom1.TabIndex = 1;
-            this.Mushroom1.Text = "Mushroom";
-            this.Mushroom1.UseVisualStyleBackColor = true;
+            this.Mushroom.Location = new System.Drawing.Point(393, 94);
+            this.Mushroom.Name = "Mushroom";
+            this.Mushroom.Size = new System.Drawing.Size(75, 23);
+            this.Mushroom.TabIndex = 1;
+            this.Mushroom.Text = "Mushroom";
+            this.Mushroom.UseVisualStyleBackColor = true;
+            this.Mushroom.Click += new System.EventHandler(this.Mushroom_Click);
             // 
-            // Logout
+            // Logout1
             // 
-            this.Logout.Location = new System.Drawing.Point(397, 174);
-            this.Logout.Name = "Logout";
-            this.Logout.Size = new System.Drawing.Size(75, 23);
-            this.Logout.TabIndex = 2;
-            this.Logout.Text = "Logout";
-            this.Logout.UseVisualStyleBackColor = true;
+            this.Logout1.Location = new System.Drawing.Point(312, 159);
+            this.Logout1.Name = "Logout1";
+            this.Logout1.Size = new System.Drawing.Size(75, 23);
+            this.Logout1.TabIndex = 2;
+            this.Logout1.Text = "Logout";
+            this.Logout1.UseVisualStyleBackColor = true;
+            this.Logout1.Click += new System.EventHandler(this.Logout_Click);
             // 
-            // Dashboard
+            // Dashboard1
             // 
-            this.Dashboard.AutoSize = true;
-            this.Dashboard.Location = new System.Drawing.Point(394, 36);
-            this.Dashboard.Name = "Dashboard";
-            this.Dashboard.Size = new System.Drawing.Size(75, 13);
-            this.Dashboard.TabIndex = 3;
-            this.Dashboard.Text = "DASHBOARD";
+            this.Dashboard1.AutoSize = true;
+            this.Dashboard1.Location = new System.Drawing.Point(309, 43);
+            this.Dashboard1.Name = "Dashboard1";
+            this.Dashboard1.Size = new System.Drawing.Size(75, 13);
+            this.Dashboard1.TabIndex = 3;
+            this.Dashboard1.Text = "DASHBOARD";
             // 
             // DashboaedFoam
             // 
-            this.ClientSize = new System.Drawing.Size(823, 411);
-            this.Controls.Add(this.Dashboard);
-            this.Controls.Add(this.Logout);
-            this.Controls.Add(this.Mushroom1);
-            this.Controls.Add(this.BicycleRental);
+            this.ClientSize = new System.Drawing.Size(775, 376);
+            this.Controls.Add(this.Dashboard1);
+            this.Controls.Add(this.Logout1);
+            this.Controls.Add(this.Mushroom);
+            this.Controls.Add(this.BicycleRental1);
             this.Name = "DashboaedFoam";
             this.Load += new System.EventHandler(this.DashboaedFoam_Load_1);
             this.ResumeLayout(false);
